@@ -8,18 +8,25 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+h1 {
+  font-size: 48px;
+}
 
 ul {
   list-style-type: none;
 }
 footer {
-  font-size: small;
+  font-size: 10px;
+}
+
+a {
+  color: #b5e1f6;
 }
 
 .weather-app {
   display: block;
   margin: 20px auto;
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
   background-color: rgba(255, 255, 255, 0.5);
   max-width: 700px;
   border-radius: 10px;
@@ -46,4 +53,43 @@ footer {
   font-family: "Delius Unicase", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.current-forecast {
+  border-bottom: 1px solid #b5e1f6;
+  padding-bottom: 10px;
+}
+.current-forecast-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.current-date {
+  font-size: 20px;
+}
+.emoji {
+  font-size: 100px;
+}
+
+.current-temp {
+  font-size: 50px;
+}
+
+.forecast-descriptions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  border-bottom: 1px solid #b5e1f6;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 0;
+}
+
+.weather-prediction {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  font-size: 15px;
 }
