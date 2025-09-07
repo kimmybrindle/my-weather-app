@@ -15,19 +15,20 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="search" class="search-form-button" />
         </form>
       </header>
       <main>
         <div class="current-forecast">
-          <h1>Los Angeles</h1>
+          <h1 id="city-name">Los Angeles</h1>
           <div class="current-forecast-details">
             <span class="current-date">Tuesday <br />19:47 PM </span
             ><span class="emoji">🌤️ </span
@@ -75,5 +76,6 @@
         >Netlify</a
       >.
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
