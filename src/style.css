@@ -71,7 +71,8 @@ a {
   font-size: 25px;
 }
 .emoji {
-  font-size: 100px;
+  width: 100px;
+  height: 100px;
 }
 .temperature-container {
   display: flex;
