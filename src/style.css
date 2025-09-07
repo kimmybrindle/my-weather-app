@@ -12,9 +12,6 @@ h1 {
   font-size: 48px;
 }
 
-ul {
-  list-style-type: none;
-}
 footer {
   font-size: 10px;
 }
@@ -92,6 +89,9 @@ a {
   margin-top: 0;
 }
 
+ul {
+  list-style-type: none;
+}
 .weather-prediction {
   display: flex;
   justify-content: space-between;
