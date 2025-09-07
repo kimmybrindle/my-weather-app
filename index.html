@@ -31,7 +31,7 @@
         <div class="current-forecast">
           <h1 id="city-name"></h1>
           <div class="current-forecast-details">
-            <span class="current-date">Tuesday <br />19:47 PM </span
+            <span class="current-date" id="time"></span
             ><span class="emoji">🌤️ </span>
             <div id="temperature-container">
               <span class="current-temp" id="current-temp"></span
@@ -40,9 +40,14 @@
           </div>
         </div>
         <p class="forecast-descriptions">
-          <span class="description">scattered clouds</span>
-          <span class="humidity">Humidity: 60%</span>
-          <span class="wind"> Wind: 13km/h</span>
+          <span class="description" id="description">weather conditions</span>
+          <span class="humidity-container">
+            Humidity:
+            <span class="humidity" id="humidity"> </span>
+          </span>
+          <span id="wind-container">
+            Wind: <span class="wind" id="wind"> </span>
+          </span>
         </p>
         <ul class="weather-prediction">
           <li class="day-one">
