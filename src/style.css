@@ -68,15 +68,17 @@ a {
   font-size: 25px;
 }
 .emoji {
-  width: 100px;
-  height: 100px;
+  width: 42%;
 }
 .temperature-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+}
+.units {
+  vertical-align: top;
 }
 .current-temp {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .forecast-descriptions {
@@ -96,18 +98,18 @@ a {
 
 .weather-forecast-day {
   text-align: center;
-  margin: 10px;
+  margin: 5px;
 }
 
 .weather-forecast-icon {
+  width: 1%;
   text-align: center;
-  font-size: 30px;
-  margin: 10px;
 }
 
 .weather-forecast-temp {
   text-align: center;
   display: flex;
-  justify-content: center;
-  margin: 10px;
+  justify-content: space-evenly;
+  margin: 5px;
+  align-items: center;
 }
