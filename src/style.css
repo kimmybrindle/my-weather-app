@@ -89,13 +89,25 @@ a {
   margin-top: 0;
 }
 
-ul {
-  list-style-type: none;
-}
-.weather-prediction {
+.week-weather-forecast {
   display: flex;
   justify-content: space-between;
-  line-height: 30px;
-  font-size: 15px;
-  padding: 5px;
+}
+
+.weather-forecast-day {
+  text-align: center;
+  margin: 10px;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.weather-forecast-temp {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
