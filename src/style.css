@@ -72,7 +72,8 @@ a {
 }
 .temperature-container {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
 }
 .units {
   vertical-align: top;
